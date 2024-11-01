@@ -1,0 +1,57 @@
+.inside #vippy p {
+	margin: 6px 0 9px
+}
+#vippy .row-actions {
+	padding: 5px 0;
+}
+ul.video-js-options {
+	display: none !important;
+}
+.attach-vippy, .insert-vippy {
+	cursor: pointer;
+}
+.vippy-loading {
+	background: url('../images/loading.gif') no-repeat scroll 0 0 transparent;
+	display: none;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	text-transform: capitalize;
+	margin: 10px auto;
+}
+.vippy-item {
+	height: 40px;
+}
+.vippy-numbers a {
+	color: #21759B;
+	text-decoration: none;
+}
+.vippy-numbers a:hover {
+	text-decoration: underline;
+	color: #D54E21;
+}
+.vippy-numbers a.selected {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #D54E21;
+}
+.vippy-numbers {
+	line-height: 20px;
+	word-spacing: 4px;
+	padding: 6px 6px 0;
+}
+.vippy-preview-container{
+	width: 500px;
+	height: 500px;
+}
+.vippy-warning{
+	color: #A7190D;
+	padding: 3px;
+}
+.vippy-options{
+	width: 613px;
+	/*border: 1px solid #DFDFDF;*/
+	padding: 3px 5px 3px 5px;
+	margin: 3px 0px 3px 0px;
+	color: #666666;
+}
